@@ -1,0 +1,447 @@
+header{
+    height: 110px;
+    /* width: 93%; */
+    background: red;
+    padding-right: 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    z-index: 1000;
+}
+
+.snowflake{
+    height: 40px;
+    width: auto;
+    display: flex;
+    justify-content: center;
+    margin-left: 47%;
+}
+
+.new{
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+body{
+    background: rgb(245, 245, 245);
+    background-size: cover;
+    overflow-x: hidden;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.logo{
+    height: 100px;
+    width: auto;
+    padding-left: 170px;
+}
+
+nav{
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    align-items: center;
+    justify-content: center;
+    padding-left: 50px;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+.icon{
+    height: 40px;
+    width: auto;
+}
+
+.icons{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-left: 50px;
+}
+
+.phone{
+    width: 100%;
+    height: auto;
+    z-index: -1;
+}
+
+.txt{
+    position: absolute;
+    margin-top: 100px;
+}
+
+.lets{
+    display: flex;
+    flex-direction: row;
+    gap: 60px;
+    margin-top: 50px;
+    margin-left: 450px;
+}
+
+.vybor{
+    border-radius: 50px;
+    background: red;
+    width: fit-content;
+    padding: 20px;
+    color: white;
+    box-shadow: 1px 8px 0px 8px rgb(255, 255, 0);
+}
+
+.vybor2{
+    display: flex;
+    align-items: center;
+}
+
+.vybor3{
+    display: flex;
+    align-items: center;
+}
+
+
+main{
+    margin-top:100px ;
+    padding-left: 0px;
+    padding-right: 50px;
+}
+main h1{
+    font-size: 60px;
+    margin-bottom: 30px;
+    text-align: center;
+}
+.snowflakemain{
+    justify-content: center;
+    align-self: center;
+    width: 50px;
+    margin-left:610px ;
+    color: #ffd700;
+}
+.grid-card{
+    display: flex;
+    display: grid;
+    flex-direction: row;
+    gap: 25px;
+    column-gap: 20px;
+    padding-left: 20px;
+    grid-template-columns: 25% 25% 25% 25%;
+}   
+.product{
+    border: 0.1px solid rgb(173, 173, 173);
+    width: 300px;
+    height: 400px;
+    border-radius: px;
+    padding: 10px;
+    background-color: white;
+    color: black ;
+    transition: 0.5s all;
+    text-align: center;
+}
+
+.product img:hover{
+    transition: 0.4s;
+    background: gray;
+}
+
+.product img{
+    width: 290px;
+    height: 300px;
+    object-fit: cover;
+}
+.product p{
+    font-size: 25px;
+    padding-left: 20px;
+    padding-top: 10px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.product h2{
+    font-size: 30px;
+    color: gray;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.photos{
+    display: flex;
+    flex-direction: row;
+    margin-top: 50px;
+    object-fit: cover;
+    margin-left: 10px;
+    gap: 50px;
+}
+
+.chr{
+    position: relative;
+    width: 450px;
+    height: 500px; 
+    overflow: hidden;
+}
+
+.btn{
+    position: absolute;
+    bottom: 20%; 
+    left: 40%;
+    transform: translate(-50%, 0);
+    background-color: white;
+    border: 2px solid black;
+    border-radius: 15px;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    text-align: center;
+    z-index: 0;
+}
+
+.btn1{
+    position: absolute;
+    bottom: 20%; 
+    left: 50%;
+    transform: translate(-50%, 0);
+    background-color: white;
+    border: 2px solid black;
+    border-radius: 15px;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    text-align: center;
+    z-index: 0;
+}
+
+.btn2{
+    position: absolute;
+    bottom: 20%; 
+    left: 46%;
+    transform: translate(-50%, 0);
+    background-color: white;
+    border: 2px solid black;
+    border-radius: 15px;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    text-align: center;
+    z-index: 0;
+}
+
+.btn:hover{
+    background-color: rgba(0, 0, 0, 0.8);
+    color: white;
+    transition: 0.3s;
+}
+
+.btn1:hover{
+    background-color: rgba(0, 0, 0, 0.8);
+    color: white;
+    transition: 0.3s;
+}
+
+.btn2:hover{
+    background-color: rgba(0, 0, 0, 0.8);
+    color: white;
+    transition: 0.3s;
+}
+
+.gift{
+    height: 430px;
+    width: 300px fit-content;
+    object-fit: cover;
+}
+
+.cont{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.ic{
+    height: 70px;
+    width: auto;
+}
+
+.emails{
+    margin-left: 40px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-right: 800px;
+    gap: 30px;
+}
+
+.ico{
+    height: 80px;
+    width: auto;
+    margin-bottom: 30px;
+}
+
+.emails input{
+    height: 30px;
+    width: 370px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    background: rgb(227, 227, 227);
+    margin-top: 30px;
+    box-shadow: 1px 8px 0px 5px rgb(255, 255, 0);
+    flex: 1;
+    border: none;
+    padding: 8px;
+    outline: none;
+    font-size: 16px;
+}
+
+.emails button{
+    position: absolute;
+    background: red;
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+    height: 33px;
+    width: 70px;
+    margin-top: 30px;
+    box-shadow: 1px 11px 0px 0px rgb(255, 255, 0);
+    padding: 12px;
+    padding-bottom: 32px;
+    font-size: 16px;
+    cursor: pointer;
+    outline: none;
+    right: 1010px;
+}
+
+.sant{
+    position: absolute;
+    margin-left: 300px;
+    margin-bottom: 300px;
+}
+
+.emails button:hover {
+    background-color: darkred;
+    color: white;
+}
+
+footer{
+    margin-top: 400px;
+    background: red;
+    color: white;
+    display: flex;
+    gap: 160px;
+    text-align: center;
+    padding-left: 50px;
+    padding-right: 100px;
+    justify-content: space-between;
+    padding-top: 20px;
+    padding-bottom: 100px;
+    font-size: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+footer ul{
+    list-style-type: none;
+    font-size: 20px;
+    text-align: start;
+}
+
+footer ul li{
+    gap: 50px;
+}
+
+.logo1{
+    height: 100px;
+    width: auto;
+    padding-left: 70px;
+}
+
+.ft4 img{
+    height: 40px;
+    width: auto;
+}
+
+.ft4{
+    display: flex;
+    flex-direction: row;
+    margin-top: 100px;
+    padding-right: 70px;
+}
+
+.ft1{
+    padding-top: 50px ;
+    text-align: start;
+}
+
+.ft2{
+    padding-top: 50px;
+    gap: 20px;
+}
+
+.ft3{
+    padding-top: 50px;
+}
+
+.textwish{
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    text-shadow: 4px 4px 8px rgba(0, 0, 0, 0.91);
+    position: relative;
+    width: 300px;
+    bottom: 300px;
+}
+
+.textwish button{
+    background: wheat;
+    border-radius: 10px;
+    height: 30px;
+    width: 100px;
+    margin-top: 30px;
+    box-shadow: 1px 5px 0px 5px rgb(255, 255, 0);
+    padding: 12px;
+    padding-bottom: 32px;
+    font-size: 16px;
+    cursor: pointer;
+    outline: none;
+}
+
+.textwish button:hover {
+    background-color: darkred;
+}
+
+.ftor{
+    position: absolute;
+    top: 3100px;
+}
+
+.sale{
+    position: absolute;
+    bottom: 330px;
+    left: 550px;
+}
+
+.fotr{
+    display: flex;
+    flex-direction: column;
+}
+
+.ft5{
+    padding-right: 50px;
+    padding-top: 50px;
+    display: flex;
+    flex-direction: column;
+}
+
+.ft5 img{
+    height: 30px;
+    width: auto;
+}
+
+.con{
+    display: flex;
+    flex-direction: row;
+}
